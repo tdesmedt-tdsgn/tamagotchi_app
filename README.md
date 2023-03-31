@@ -1,17 +1,24 @@
-# tamagotchi_app
+# Tamagotchi App
 
-A new Flutter project.
+A simple Tamagotchi app made with Flutter. The app simulates a virtual pet that requires care, including feeding, playing, and cleaning.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display a virtual pet with a simple ASCII art representation
+- Provide basic care actions: Feed, Play, Clean
+- Show pet's stats: Hunger, Happiness, Cleanliness
+- Stats gradually decrease over time
+- Save pet's state using persistent storage
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. [Install Flutter](https://flutter.dev/docs/get-started/install) on your development machine.
+2. Clone this repository.
+3. Open a terminal window and navigate to the project's root directory.
+4. Run `flutter pub get` to install dependencies.
+5. Connect a physical device or start an emulator/simulator.
+6. Run `flutter run` to build and launch the app on the target device.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# tamagotchi_app
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
