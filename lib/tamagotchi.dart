@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class Tamagotchi {
   int hunger;
   int happiness;
@@ -27,5 +29,11 @@ class Tamagotchi {
     hunger--;
     happiness--;
     cleanliness--;
+  }
+
+  void updateStats() {
+    hunger = max(0, hunger - Random().nextInt(5));
+    happiness = max(0, happiness - Random().nextInt(5));
+    cleanliness = max(0, cleanliness - Random().nextInt(5));
   }
 }
